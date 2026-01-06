@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { TrustedBy } from './components/TrustedBy';
+import { AboutService } from './components/AboutService';
 import { Problem } from './components/Problem';
 import { BeforeAfter } from './components/BeforeAfter';
 import { Solution } from './components/Solution';
@@ -21,6 +22,9 @@ const App = () => {
       <main>
         <Hero />
         <TrustedBy />
+        <div id="about">
+          <AboutService />
+        </div>
         <div id="problem">
           <Problem />
         </div>
