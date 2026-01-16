@@ -60,7 +60,11 @@ export const AboutService = () => {
             className="text-4xl md:text-6xl font-bold tracking-tight mb-8 leading-[1.1] text-white"
           >
             「なぜつらいのか」の手がかりを10秒で可視化し、<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-400 to-emerald-400">「痛みに悩まない身体」</span>づくりへ導く<br className="hidden md:block" />
+            <span className="inline-block">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-400 to-emerald-400">「痛みに悩まない身体」</span>
+              づくりへ導く
+            </span>
+            <br className="hidden md:block" />
             AIコンディショニング
           </motion.h2>
           

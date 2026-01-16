@@ -25,11 +25,11 @@ const App = () => {
         <div id="about">
           <AboutService />
         </div>
-        <div id="problem">
-          <Problem />
-        </div>
         <div id="solution">
           <Solution />
+        </div>
+        <div id="problem">
+          <Problem />
         </div>
         <BeforeAfter />
         <div id="benefits">
